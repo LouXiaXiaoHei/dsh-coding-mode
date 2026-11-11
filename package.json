@@ -1,6 +1,6 @@
 {
   "name": "dsh-coding-mode",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "编程模式（coding preset）：像高级软件工程师一样思考，过程全程可见 —— 每次工具调用前先说明、改完一个文件立刻列出改动，并按场景主动加载调试/验证/评审技能。",
   "type": "module",
   "license": "MIT",

@@ -107,7 +107,7 @@ check('persona suffix 存在', /^ {14}suffix: \|$/m.test(patch))
 for (const heading of ['一、过程可见性', '二、怎么思考', '三、写代码的准则', '四、验证', '五、收尾']) {
   check(`prefix 含小节「${heading}」`, patch.includes(heading))
 }
-for (const heading of ['六、技能与子代理路由', '子代理不放松可见性', '七、语言']) {
+for (const heading of ['六、技能与子代理路由', '子代理不放松可见性', '七、输出形状', '八、语言']) {
   check(`suffix 含小节「${heading}」`, patch.includes(heading))
 }
 
