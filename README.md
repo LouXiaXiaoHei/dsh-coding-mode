@@ -74,6 +74,7 @@ plugin_manager install_bundle target=dsh-coding-mode
 
 | 场景 | 技能 |
 |---|---|
+| 需求大而笼统（验收标准说不清 / 多目标 / 说不出改哪） | `brainstorming` → 一次问一个问题细化，再给 2–3 个方案 |
 | 遇到 bug、测试失败、行为不符预期 | `systematic-debugging` |
 | 准备宣称完成 / 已修复 / 测试通过之前 | `verification-before-completion` |
 | 完成任务、完成重大功能、合并前 | `requesting-code-review` → 派 reviewer subagent |

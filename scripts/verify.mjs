@@ -136,6 +136,7 @@ const routedSkills = [
 for (const skill of routedSkills) {
   check(`前置验证覆盖技能 ${skill}`, preflightSource.includes(`'${skill}'`))
 }
+check('路由含「笼统需求先细化」规则', patch.includes('需求大而笼统'))
 check('前置验证挂在 system-prompt/assemble', preflightSource.includes("'system-prompt/assemble'"))
 check('单测文件存在', await existsFile('scripts/preflight.test.mjs'))
 
